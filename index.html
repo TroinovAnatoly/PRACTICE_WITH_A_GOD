@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шифровка ROT-13</title>
+
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="main">
+        <div class="left_block">
+            <input type="text" placeholder="Введите четное или нечетное число" id="changer">
+            <input type="text" placeholder="Напишите текст для шифрования" id="input_text">
+        </div>
+        <div class="right_block">
+            <p class="sorted_text" id="output_text"></p>
+            <button id="compilation_button" onclick="rot13()"><p>Шифровать</p></button>
+        </div>
+    </div>
+</body>
+</html>
