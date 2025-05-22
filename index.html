@@ -10,13 +10,10 @@
 </head>
 <body>
     <div class="main">
-        <div class="left_block">
-            <input type="text" placeholder="Введите четное или нечетное число" id="changer">
-            <input type="text" placeholder="Напишите текст для шифрования" id="input_text">
-        </div>
-        <div class="right_block">
-            <p class="sorted_text" id="output_text"></p>
-            <button id="compilation_button" onclick="rot13()"><p>Шифровать</p></button>
+        <div class="block">
+            <textarea type="text" placeholder="Напишите текст для шифрования" id="input_text"></textarea>
+            <textarea type="text" class="sorted_text" id="output_text" readonly></textarea>
+            <button id="compilation_button" onclick="rot13()">Шифровать</button>
         </div>
     </div>
 </body>
