@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" version="27.0.8">
+  <diagram name="Страница — 1" id="GBdDhDbh5qkkkpu2H_7m">
+    <mxGraphModel dx="1611" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tPg-mLEVp1Zvu48CuYIT-1" target="tPg-mLEVp1Zvu48CuYIT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-1" value="НАЧАЛО" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tPg-mLEVp1Zvu48CuYIT-2" target="tPg-mLEVp1Zvu48CuYIT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-2" value="Импортируем методы для взаимодействия с путями и файлами в следующие переменные:&lt;br&gt;http&lt;br&gt;fs&lt;br&gt;path&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tPg-mLEVp1Zvu48CuYIT-4" target="tPg-mLEVp1Zvu48CuYIT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-4" value="вызов функции OnRequest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tPg-mLEVp1Zvu48CuYIT-6" target="tPg-mLEVp1Zvu48CuYIT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-6" value="создание пути к файлу index.html" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tPg-mLEVp1Zvu48CuYIT-8" target="tPg-mLEVp1Zvu48CuYIT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-8" value="нормализация созданного пути" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tPg-mLEVp1Zvu48CuYIT-10" target="tPg-mLEVp1Zvu48CuYIT-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-10" value="установка форматов файлов во всем пути" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tPg-mLEVp1Zvu48CuYIT-12" target="tPg-mLEVp1Zvu48CuYIT-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-12" value="чтение пути при помощи readFile с последующим вывод HTML в случае успеха или 404 ошибки, в случае провала" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="340" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tPg-mLEVp1Zvu48CuYIT-14" target="tPg-mLEVp1Zvu48CuYIT-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-14" value="создание сервера с записью его в переменную сервер:&lt;br&gt;server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tPg-mLEVp1Zvu48CuYIT-16" target="tPg-mLEVp1Zvu48CuYIT-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-16" value="Указание порта и адреса сайта&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPg-mLEVp1Zvu48CuYIT-18" value="Конец" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

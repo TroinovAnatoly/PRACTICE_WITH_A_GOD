@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" version="26.0.16">
+  <diagram name="Страница — 1" id="lhmmR-7rvf7_0ENSjI8A">
+    <mxGraphModel dx="1117" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ayR2tUKpAY05O23Msr9H-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ayR2tUKpAY05O23Msr9H-2" target="ayR2tUKpAY05O23Msr9H-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-2" value="НАЧАЛО" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ayR2tUKpAY05O23Msr9H-3" target="ayR2tUKpAY05O23Msr9H-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-3" value="Вызов функции Rot13&lt;br&gt;Инициализация переменных:&lt;div&gt;bukva&lt;br&gt;input_text&lt;br&gt;output_text&lt;br&gt;words&lt;br&gt;strong_words&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ayR2tUKpAY05O23Msr9H-9" target="ayR2tUKpAY05O23Msr9H-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-9" value="Очищение строки в HTML коде" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ayR2tUKpAY05O23Msr9H-11" target="ayR2tUKpAY05O23Msr9H-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-11" value="Итерация по вводу пользователя через функцию for" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="120" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ayR2tUKpAY05O23Msr9H-18" target="ayR2tUKpAY05O23Msr9H-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-18" value="проверка на заглавность буквы" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ayR2tUKpAY05O23Msr9H-23" target="ayR2tUKpAY05O23Msr9H-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-23" value="Итерация по спикам с английским алфавитом функцию for" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="140" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ayR2tUKpAY05O23Msr9H-27" target="ayR2tUKpAY05O23Msr9H-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-27" value="Замена букв в воде пользователя" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="230" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ayR2tUKpAY05O23Msr9H-30" target="ayR2tUKpAY05O23Msr9H-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-30" value="вывод зашифрованной строки" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ayR2tUKpAY05O23Msr9H-32" value="КОНЕЦ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

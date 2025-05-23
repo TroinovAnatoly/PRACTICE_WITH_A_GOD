@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шифровка ROT-13</title>
+
+    <script src="public/script.js"></script>
+    <link rel="stylesheet" href="public/index.css">
+</head>
+<body>
+    <div class="main">
+        <div class="block">
+            <textarea type="text" placeholder="Напишите текст для шифрования" id="input_text"></textarea>
+            <textarea type="text" class="sorted_text" id="output_text" readonly></textarea>
+            <button id="compilation_button" onclick="rot13()">Шифровать</button>
+        </div>
+    </div>
+</body>
+</html>
